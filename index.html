@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web67 夜市小吃評鑑</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <header data-bs-theme="dark">
+        <nav class="navbar-expand-lg navbar d-block">
+            <nav class="titles d-flex align-items-center gap-3">
+                <img src="logo.png" alt="logo" tabindex="0" class="logo">
+                <div class="d-lg-flex d-block gap-3 align-items-center">
+                    <h1 class="title" tabindex="0">Web67 夜市小吃評鑑</h1>
+                    <span class="slogan d-none d-md-block" tabindex="0">吃遍夜市,好味道你說了算</span>
+                </div>
+                <div class="functions ms-auto d-flex gap-3 align-items-center">
+                    <select name="font" id="font" class="form-control">
+                        <option value="14">A-</option>
+                        <option value="16">A</option>
+                        <option value="20">A+</option>
+                    </select>
+                    <select name="theme" id="theme" class="form-control">
+                        <option value="dark">🌚</option>
+                        <option value="light">🌞</option>
+                        <option value="system">💻</option>
+                    </select>
+                    <button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <nav class="navbar-collapse row show" id="nav">
+                <a href="index.html" class="link col-12 col-md-3" tabindex="0">首頁</a>
+                <a href="search.html" class="link col-12 col-md-3" tabindex="0">夜市查詢</a>
+                <a href="review.html" class="link col-12 col-md-3" tabindex="0">美食評鑑</a>
+                <a href="login.html" class="link col-12 col-md-3" tabindex="0">系統管理</a>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <section id="breadcrumb" class="col-10 mx-auto my-3">
+            <span tabindex="0">首頁</span>
+        </section>
+        <section class="card card-body col-10 my-3 mx-auto"></section>
+    </main>
+    <footer class="text-center">
+        <p>第19屆全國身心障礙者技能競賽 模擬練習 設計者：Web67</p>
+    </footer>
+    <script src="bootstrap.js"></script>
+    <script src="jqueryv4.0.0.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
